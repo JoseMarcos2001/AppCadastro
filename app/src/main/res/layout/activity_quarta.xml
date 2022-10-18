@@ -22,13 +22,13 @@
 
     <Button
         android:id="@+id/btlistarID"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="136dp"
+        android:layout_height="48dp"
         android:layout_marginStart="33dp"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="57dp"
         android:onClick="primeiraTela"
-        android:text="@string/buttonListar"
+        android:text="listar"
         app:layout_constraintEnd_toStartOf="@+id/btcadastrarID"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -41,7 +41,7 @@
         android:layout_marginTop="34dp"
         android:layout_marginEnd="47dp"
         android:onClick="segundaTela"
-        android:text="@string/buttonCadastrar"
+        android:text="cadastrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btlistarID"
         app:layout_constraintTop_toTopOf="parent" />

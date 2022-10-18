@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">AppCadastro</string>
+    <string name="cliente">cliente</string>
+    <string name="produto">produto</string>
+    <string name="fornecedor">fornecedor</string>
+    <string name="sair">sair</string>
+    <string name="buttonListar">buttonListar</string>
+    <string name="buttonCadastrar">buttonCadastrar</string>
+    <string name="numerocliente">numerocliente</string>
+    <string name="nomecliente">nomecliente</string>
+    <string name="btSalvarCliente">btSalvarCliente</string>
+    <string name="nomefornecedor">nomefornecedor</string>
+    <string name="numerofornecedor">numerofornecedor</string>
+    <string name="btsalvarcliente">btsalvarcliente</string>
+    <string name="nomeproduto">nomeproduto</string>
+    <string name="nomemarca">nomemarca</string>
 </resources>
