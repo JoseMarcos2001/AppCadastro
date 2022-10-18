@@ -11,6 +11,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCadastro"
-        tools:targetApi="31"></application>
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.QuartaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TerceiraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SegundaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
 
 </manifest>
